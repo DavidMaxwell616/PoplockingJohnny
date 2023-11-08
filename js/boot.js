@@ -1,9 +1,7 @@
-var head;
-var neck;
 var body;
 var data;
 var groovesong;
-const styles = ['gliding','idle', 'locking','popping','puppet','robot','snaking','waving'];
+const styles = ['idle','boogaloo','gliding','locking','popping','puppet','robot','snaking','waving'];
 var dude = [];
 function Button(name, x, y) {
     this.name = name;
@@ -11,3 +9,4 @@ function Button(name, x, y) {
     this.y = y;
   }
 var buttons = [];
+var currentStyle = 0;
