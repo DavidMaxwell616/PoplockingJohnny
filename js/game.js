@@ -28,7 +28,7 @@ function create() {
     this.anims.create({
       key: style,
       frames: this.anims.generateFrameNumbers(style, {}),
-      frameRate: 16,
+      frameRate: 8,
       repeat: -1,
     });
     dudeStyle.visible = false;
@@ -39,8 +39,7 @@ function create() {
   dude[0].anims.play(buttons[0].tag);
   buttons[0].setTint(0x0ff000);
  
-  //dude.anims.play('idle');
-  // groovesong = this.sound.add('groove');
+   // groovesong = this.sound.add('groove');
   // groovesong.setLoop(true);
   // groovesong.play();
 
